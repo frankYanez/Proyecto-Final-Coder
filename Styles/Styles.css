@@ -229,6 +229,8 @@ form fieldset {
     margin: 5rem 0;
 }
 
-ul {
+.telefonos {
     color: var(--color--white);
+    display: flex;
+    justify-content: space-around;
 }
