@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@500&display=swap');
+
+$primary-color: rgb(27, 27, 27);
+$secundary-color:rgb(234, 237, 27);
+$white-color: white;
+
+
+body {
+    background: linear-gradient(rgb(27, 27, 27), rgb(68, 67, 67));
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.logowp {
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    
+}
+
+.derechos {
+    text-align: center;
+}
+

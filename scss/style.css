@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@500&display=swap");
+.navbar {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d7ef74), to(#eaed1b));
+  background: linear-gradient(#d7ef74, #eaed1b);
+}
+
+.navbar .nav-link {
+  font-weight: 600;
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.span-pr {
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px white, 1px 2px 3px black;
+}
+
+h1 {
+  text-align: center;
+  padding: 150px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1b1b1b), to(#444343));
+  background: linear-gradient(#1b1b1b, #444343);
+  color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+.logowp {
+  width: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+aside {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1b1b1b), to(#eaed1b));
+  background: linear-gradient(#1b1b1b, #eaed1b);
+  border-radius: 5px;
+  border: 2px solid white;
+  display: inline-block;
+}
+
+aside img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.header-hero {
+  background-image: url(../img/Header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*# sourceMappingURL=style.css.map */

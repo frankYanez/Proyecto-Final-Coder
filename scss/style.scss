@@ -1,0 +1,11 @@
+@import '../scss/components/navbar.scss';
+@import '../scss/base/Globales';
+@import '_aside.scss';
+@import '../scss/components/main';
+
+.header-hero {
+background-image: url(../img/Header.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}

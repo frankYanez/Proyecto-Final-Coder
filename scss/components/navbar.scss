@@ -1,0 +1,25 @@
+.navbar, footer {
+    background:linear-gradient(rgb(215, 239, 116),rgb(234, 237, 27));
+    .nav-link {
+        font-weight:600;
+        color: black;
+    }
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.span-pr {
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255), 1px 2px 3px rgb(0, 0, 0) ;
+}
+
+h1 {
+    
+    text-align: center;
+    padding: 150px;
+
+}
