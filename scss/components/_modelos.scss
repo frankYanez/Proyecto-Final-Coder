@@ -1,0 +1,11 @@
+@mixin Modelos {
+    border: 1px solid $white-color;
+    background: linear-gradient($primary-color,$secundary-color);
+    border-radius: 5px;
+}
+
+.modelo {
+    margin: 20px;
+    @include Modelos()
+
+}

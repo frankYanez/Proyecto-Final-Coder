@@ -1,7 +1,9 @@
-@import '../scss/components/navbar.scss';
-@import '../scss/base/Globales';
-@import '_aside.scss';
-@import '../scss/components/main';
+@import 'components/navbar.scss';
+@import 'base/Globales';
+@import 'components/aside';
+@import 'components/main';
+@import 'components/modelos';
+@import 'components/contacto';
 
 .header-hero {
 background-image: url(../img/Header.jpg);
