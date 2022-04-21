@@ -19,6 +19,11 @@ body {
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    transition: all 3s;
+    &:hover {
+        transform: scale(1.1);
+   
+    }
 }
 
 p {
@@ -30,8 +35,18 @@ p {
     position: fixed;
     right: 20px;
     bottom: 20px;
+    transition: all 3s;
+    &:hover {
+        transform: scale(1.2);
     
+    }
 }
+
+.section {
+    margin: 50px;
+}
+
+
 .derechos {
     text-align: center;
 }
@@ -39,3 +54,4 @@ p {
 .vid {
     margin: 0 auto;
 }
+

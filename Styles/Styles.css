@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@500&display=swap");
 .navbar, footer {
+  color: white;
   background: linear-gradient(rgb(215, 239, 116), rgb(234, 237, 27));
 }
-.navbar .nav-link, footer .nav-link {
+.navbar .nav-link, .navbar .nav-item, footer .nav-link, footer .nav-item {
   font-weight: 600;
-  color: black;
-}
-.navbar .nav-link:hover, footer .nav-link:hover {
-  background-color: black;
   color: white;
   transition: 1.1s;
+  border-radius: 2px;
+}
+.navbar .nav-link:hover, .navbar .nav-item:hover, footer .nav-link:hover, footer .nav-item:hover {
+  background-color: black;
+  color: white;
 }
 
 .navbar-brand {
@@ -44,6 +46,10 @@ body {
 h1, h2, h3 {
   font-family: "Oswald", sans-serif;
   text-align: center;
+  transition: all 3s;
+}
+h1:hover, h2:hover, h3:hover {
+  transform: scale(1.1);
 }
 
 p {
@@ -55,6 +61,14 @@ p {
   position: fixed;
   right: 20px;
   bottom: 20px;
+  transition: all 3s;
+}
+.logowp:hover {
+  transform: scale(1.2);
+}
+
+.section {
+  margin: 50px;
 }
 
 .derechos {
@@ -96,14 +110,16 @@ aside img {
 }
 
 .modelo {
+  box-shadow: 10px 10px 15px 0px #000;
   margin: 20px;
   border: 1px solid white;
   background: linear-gradient(rgb(27, 27, 27), rgb(234, 237, 27));
   border-radius: 5px;
 }
 
-map {
+.map {
   margin: 0 auto;
+  box-shadow: 10px 10px 15px 0px #000;
 }
 
 .header-hero {
