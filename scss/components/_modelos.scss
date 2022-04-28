@@ -1,6 +1,6 @@
 @mixin Modelos {
-    border: 1px solid $white-color;
-    background: linear-gradient($primary-color,$secundary-color);
+    border: 1px solid map-get($map: $colors, $key: white );
+    background: linear-gradient( black, rgb(234, 237, 27) );
     border-radius: 5px;
 }
 
@@ -12,3 +12,4 @@
     @include Modelos()
     
 }
+

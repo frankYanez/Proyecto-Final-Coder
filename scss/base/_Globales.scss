@@ -6,14 +6,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@500&display=swap');
 
-$primary-color: rgb(27, 27, 27);
-$secundary-color:rgb(234, 237, 27);
-$white-color: white;
+$colors: (
+    primary: rgb(27, 27, 27),
+    secundary: rgb(234, 237, 27),
+    white: white
+);
 
 
 body {
     background: linear-gradient(rgb(27, 27, 27), rgb(68, 67, 67));
-    color: white;
+    color: map-get($map: $colors, $key: white )
 }
 
 h1, h2, h3 {
