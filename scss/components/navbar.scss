@@ -1,0 +1,35 @@
+.navbar, footer {
+    color: white;
+    background:linear-gradient(rgb(215, 239, 116),rgb(234, 237, 27));
+    .nav-link, .nav-item {
+        font-weight:600;
+        color: white;
+        transition: 1.1s;
+        border-radius: 2px;
+        &:hover {
+            background-color: black;
+            color: white;
+            
+        }
+    }
+}
+
+
+.navbar-brand {
+    color: white;
+}
+
+.span-pr {
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255), 1px 2px 3px rgb(0, 0, 0) ;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    padding: 100px;
+    text-shadow: 2px 2px 0px black, 2px 2px 0px yellow;
+
+}

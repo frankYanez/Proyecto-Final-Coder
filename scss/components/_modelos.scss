@@ -1,0 +1,17 @@
+@mixin Modelos {
+    border: 1px solid map-get($map: $colors, $key: white );
+    background: linear-gradient( black, rgb(234, 237, 27) );
+    border-radius: 5px;
+}
+
+
+
+.modelo {
+    box-shadow: 10px 10px 15px 0px #000;
+    margin: 20px;
+    @include Modelos()
+    
+}
+
+
+

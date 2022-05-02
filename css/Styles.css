@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@500&display=swap");
+.navbar, footer {
+  color: white;
+  background: linear-gradient(rgb(215, 239, 116), rgb(234, 237, 27));
+}
+.navbar .nav-link, .navbar .nav-item, footer .nav-link, footer .nav-item {
+  font-weight: 600;
+  color: white;
+  transition: 1.1s;
+  border-radius: 2px;
+}
+.navbar .nav-link:hover, .navbar .nav-item:hover, footer .nav-link:hover, footer .nav-item:hover {
+  background-color: black;
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.span-pr {
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255), 1px 2px 3px rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  padding: 100px;
+  text-shadow: 2px 2px 0px black, 2px 2px 0px yellow;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgb(27, 27, 27), rgb(68, 67, 67));
+  color: white;
+}
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  transition: all 3s;
+}
+h1:hover, h2:hover {
+  transform: scale(1.1);
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.logowp {
+  width: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  transition: all 3s;
+}
+.logowp:hover {
+  transform: scale(1.2);
+}
+
+.section {
+  margin: 50px;
+}
+
+.derechos {
+  text-align: center;
+  font-size: 15px;
+}
+
+.vid {
+  margin: 0 auto;
+}
+
+.disclaimer {
+  display: none;
+}
+
+aside {
+  margin-top: 50px;
+  background: linear-gradient(black, rgb(234, 237, 27));
+  border-radius: 5px;
+  border: 2px solid white;
+  display: inline-block;
+}
+aside img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.cards {
+  gap: 20px;
+  margin: 50px auto;
+}
+
+.card, .alert, aside {
+  background: linear-gradient(black, rgb(234, 237, 27));
+  box-shadow: 10px 10px 15px 0px rgb(0, 0, 0);
+}
+.card p, .alert p, aside p {
+  color: black;
+}
+
+.img-log {
+  width: 300px;
+}
+
+.modelo {
+  box-shadow: 10px 10px 15px 0px rgb(27, 27, 27);
+  margin: 20px;
+  border: 1px solid white;
+  background: linear-gradient(black, rgb(234, 237, 27));
+  border-radius: 5px;
+}
+
+.map {
+  margin: 0 auto;
+  box-shadow: 10px 10px 15px 0px rgb(27, 27, 27);
+}
+
+.alert {
+  color: white;
+}
+
+.header-hero {
+  background-image: url(../img/Header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

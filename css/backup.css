@@ -63,8 +63,21 @@ h1 {
   text-align: center;
   padding: 15rem 0;
   font-size: 5rem;
+<<<<<<< HEAD:Styles/Styles.css
 }
 
+=======
+  transition: all 1s;
+}
+
+h1:hover {
+    transform: scale(1.1);
+   
+}
+
+
+
+>>>>>>> aplicando-animaciones:css/backup.css
 
 /* Parrafos */
 p {
@@ -288,3 +301,16 @@ form fieldset {
     }
 }
 
+<<<<<<< HEAD:Styles/Styles.css
+=======
+.card {
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+.cards {
+    gap: 40px;
+}
+
+>>>>>>> aplicando-animaciones:css/backup.css

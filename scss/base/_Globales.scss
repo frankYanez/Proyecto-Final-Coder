@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@500&display=swap');
+
+$colors: (
+    primary: rgb(27, 27, 27),
+    secundary: rgb(234, 237, 27),
+    white: white
+);
+
+
+body {
+    background: linear-gradient(rgb(27, 27, 27), rgb(68, 67, 67));
+    color: map-get($map: $colors, $key: white )
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    transition: all 3s;
+    &:hover {
+        transform: scale(1.1);
+   
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.logowp {
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition: all 3s;
+    &:hover {
+        transform: scale(1.2);
+    
+    }
+}
+
+.section {
+    margin: 50px;
+}
+
+
+.derechos {
+    text-align: center;
+}
+
+.vid {
+    margin: 0 auto;
+}
+
