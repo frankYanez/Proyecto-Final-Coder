@@ -27,6 +27,11 @@ h1, h2, h3 {
    
     }
 }
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+}
 
 p {
     font-family: 'Lato', sans-serif;
