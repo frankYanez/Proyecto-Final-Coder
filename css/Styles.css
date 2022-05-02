@@ -43,15 +43,24 @@ body {
   color: white;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: "Oswald", sans-serif;
   text-align: center;
   transition: all 3s;
 }
-h1:hover, h2:hover {
+h1:hover, h2:hover, h3:hover {
   transform: scale(1.1);
 }
 
+@media (max-width: 480px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .cards {
+    display: grid;
+  }
+}
 p {
   font-family: "Lato", sans-serif;
 }
@@ -73,20 +82,15 @@ p {
 
 .derechos {
   text-align: center;
-  font-size: 15px;
 }
 
 .vid {
   margin: 0 auto;
 }
 
-.disclaimer {
-  display: none;
-}
-
 aside {
   margin-top: 50px;
-  background: linear-gradient(black, rgb(234, 237, 27));
+  background: linear-gradient(black, white);
   border-radius: 5px;
   border: 2px solid white;
   display: inline-block;
@@ -102,11 +106,11 @@ aside img {
   margin: 50px auto;
 }
 
-.card, .alert, aside {
+.card, aside {
   background: linear-gradient(black, rgb(234, 237, 27));
   box-shadow: 10px 10px 15px 0px rgb(0, 0, 0);
 }
-.card p, .alert p, aside p {
+.card p, aside p {
   color: black;
 }
 
@@ -115,7 +119,7 @@ aside img {
 }
 
 .modelo {
-  box-shadow: 10px 10px 15px 0px rgb(27, 27, 27);
+  box-shadow: 10px 10px 15px 0px #000;
   margin: 20px;
   border: 1px solid white;
   background: linear-gradient(black, rgb(234, 237, 27));
@@ -124,11 +128,7 @@ aside img {
 
 .map {
   margin: 0 auto;
-  box-shadow: 10px 10px 15px 0px rgb(27, 27, 27);
-}
-
-.alert {
-  color: white;
+  box-shadow: 10px 10px 15px 0px #000;
 }
 
 .header-hero {

@@ -1,6 +1,6 @@
 aside {
     margin-top: 50px;
-    background: linear-gradient( black , $map: $colors, $key: white);
+    background: linear-gradient( black , white);
     border-radius: 5px;
     border: 2px solid map-get($map: $colors, $key: white);
     display: inline-block;
