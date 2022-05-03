@@ -89,6 +89,7 @@ p {
 }
 
 aside {
+  color: white;
   margin-top: 50px;
   background: linear-gradient(black, white);
   border-radius: 5px;
@@ -111,7 +112,7 @@ aside img {
   box-shadow: 10px 10px 15px 0px rgb(0, 0, 0);
 }
 .card p, aside p {
-  color: black;
+  color: white;
 }
 
 .img-log {

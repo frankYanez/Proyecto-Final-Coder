@@ -14,7 +14,9 @@
     <meta property="og:description" content="Somos una de las mejores compañias especializadas en la creacion de paginas web para tu negocio. Basados en crear una atractiva herramienta de trabajo para dar a conocer tus productos"/>
     <!-- Favicon -->
     <link rel="icon" sizes="152x152" href="img/favicon.ico">
-    <link rel="stylesheet" href="css/Styles.css">
+    <!-- Añadiendo AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Styles.css">
     <title>FY | Freelancer</title>
 </head>
 <body>
@@ -66,41 +68,53 @@
       </nav>
   </header>
     <!-- Aqui termina el Header -->
-
     <div class="header-hero">
             
-      <h1>Contacto</h1>
+      <h1>Modelos</h1>
 
       </div>
+
     <!-- Contenido Principal  -->
-    <main>
-        <div>
-          <h2>Telefonos</h2>
+    <main class= "container">
+        <h2>Modelo 1</h2>
+        <div data-aos="flip-left" class="modelo row">
+            <img class="col-xl-6 w-50" src="../img/sitio1.jpg" alt="sitio 1 para catalogos de venta"> 
+            <p class="col-xl-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab voluptates eum minima, eius adipisci ad blanditiis dignissimos consequatur, vel eligendi provident. Consequatur, provident? Provident illum reiciendis nobis ad natus cum.
+            </p>
+        </div>  <!-- Aqui termina modelo 1 -->
+        
+        
+        <h2>Modelo 2</h2>
+        <div data-aos="flip-right" class="modelo row">
             
-          <ul class="d-flex justify-content-around">
-              <li>3436587</li>
-              <li>311-324-2585</li>
-              <li>Fax 3214255</li>
-          </ul>
-          
+            <img class="col-xl-6 w-50" src="../img/sitio2.jpg" alt="sitio numero 2 ideal para e-commerce">
 
-          <h2>Ubicacion</h2>
-          <div class="d-flex justify-content-center">
-            <iframe class="map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1653338.208575973!2d-59.75309668094425!3d-35.96711772244066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1646916028819!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-          
+            <p class="col-xl-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab voluptates eum minima, eius adipisci ad blanditiis dignissimos consequatur, vel eligendi provident. Consequatur, provident? Provident illum reiciendis nobis ad natus cum.
+            </p>
 
-        </div>
+        </div><!-- Aqui termina modelo 2 -->
+        
+        
+        <h2>Modelo 3</h2>
+        <div data-aos="flip-left" class="modelo row">
 
+            <p class="col-xl-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab voluptates eum minima, eius adipisci ad blanditiis dignissimos consequatur, vel eligendi provident. Consequatur, provident? Provident illum reiciendis nobis ad natus cum.
+            </p>
+
+            <img class="col-xl-6 w-50" src="../img/sitio3.jpg" alt="sitio numero 3 con un modelo atractivo">
+        </div> <!-- Aqui termina modelo 3 -->
+
+        <h2>Modelo 4</h2>
+        <div data-aos="flip-right" class="modelo row">
+
+          <p class="col-xl-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab voluptates eum minima, eius adipisci ad blanditiis dignissimos consequatur, vel eligendi provident. Consequatur, provident? Provident illum reiciendis nobis ad natus cum.
+          </p>
+
+          <img class="col-xl-6 w-50" src="../img/sitio1.jpg" alt="sitio 4 ideal para blogs informativos">
+      </div>
     </main>
 
-    <section>
-      <div></div>
-      <div></div>
-      <div></div>
-    </section>
-
-    <footer class="footer mt-5">
+    <footer class="footer">
         
       <ul class="nav justify-content-center">
           <li class="nav-item">
@@ -131,8 +145,14 @@
 </div>
 
 <p class="derechos">Todos los derechos reservados ®</p>
+ <!-- Iniciando AOS -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+ <!-- Iniciando Bootstrap -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
