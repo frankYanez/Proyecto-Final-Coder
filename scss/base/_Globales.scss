@@ -21,11 +21,28 @@ body {
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    transition: all 3s;
-    &:hover {
-        transform: scale(1.1);
-   
+    text-shadow: 1px 1px 2px rgb(234, 237, 27),2px 2px 3px rgb(11, 11, 10);
+    animation-name: blur;
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+    @keyframes blur {
+        0%{
+            text-shadow: 1px 1px 2px rgb(246, 250, 0);
+        }
+        25%{
+            text-shadow: 2px 2px 4px rgb(243, 245, 134);
+        }
+        50%{
+            text-shadow: 1px 1px 2px rgb(240, 241, 221);
+        }
+        75%{
+            text-shadow: 2px 2px 4px rgb(247, 249, 101);
+        }
+        100%{
+            text-shadow: 1px 1px 2px rgb(246, 250, 0);
+        }
     }
+    
 }
 @media (max-width: 480px) {
     h1 {
@@ -45,11 +62,14 @@ p {
     position: fixed;
     right: 20px;
     bottom: 20px;
-    transition: all 3s;
-    &:hover {
-        transform: scale(1.2);
-    
+    transition: all 1.5s;
+    &:hover{
+        transform: scale(1.1);
     }
+    
+
+    
+    
 }
 
 .section {

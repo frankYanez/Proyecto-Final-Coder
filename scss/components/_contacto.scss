@@ -1,4 +1,63 @@
+@import './modelos';
 .map{
     margin: 0 auto;
     box-shadow: 10px 10px 15px 0px #000;
+}
+
+.contact {
+    max-width: 50%;
+    align-items: center
+}
+
+.contacto {
+    margin-top: 60px;
+}
+
+form {
+    @include Modelos ();
+    font-size: 16px;
+    line-height: 1.4;
+    margin: auto;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row input [type="email"],
+input [type="text"] {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.form-row textarea {
+    resize: none;
+    min-height: 200px;
+    min-width: 100%;
+}
+
+.form-row button {
+    max-width: 120px;
+    background-color: black;
+    color: white;
+    &:hover {
+        background-color: rgb(30, 29, 29);
+    }
+}
+
+.contact img {
+    margin: auto;
+}
+
+@media (max-width:480px){
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        
+    }
 }

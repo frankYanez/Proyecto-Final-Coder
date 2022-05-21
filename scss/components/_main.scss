@@ -14,3 +14,20 @@
 .img-log {
     width: 300px;
 }
+
+@media (max-width: 480px) {
+    .logos {
+        display: grid;
+        justify-content: center;
+        
+    }
+
+    .img-log {
+        margin: 60px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-log {
+        margin: 60px 0;}
+}

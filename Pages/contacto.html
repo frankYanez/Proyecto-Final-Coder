@@ -13,7 +13,7 @@
     <meta property="og:title" content="Creamos Tu Pagina Web"/>
     <meta property="og:description" content="Somos una de las mejores compañias especializadas en la creacion de paginas web para tu negocio. Basados en crear una atractiva herramienta de trabajo para dar a conocer tus productos"/>
     <!-- Favicon -->
-    <link rel="icon" sizes="152x152" href="img/favicon.ico">
+    <link rel="icon" sizes="152x152" href="../img/favicon.ico">
     <!-- Añadiendo AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/Styles.css">
@@ -77,7 +77,7 @@
     <!-- Contenido Principal  -->
     <main>
         <div>
-          <h2>Telefonos</h2>
+          <h2 class="mt-5">Telefonos</h2>
 
           <ul class="d-flex justify-content-around">
               <li>3436587</li>
@@ -86,22 +86,63 @@
           </ul>
 
 
-          <h2>Ubicacion</h2>
-          <div data-aos="fade-down" class="d-flex justify-content-center">
+          <h2 class="mt-5">Ubicacion</h2>
+          <div data-aos="fade-down mt-5" class="d-flex justify-content-center">
             <iframe class="map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1653338.208575973!2d-59.75309668094425!3d-35.96711772244066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1646916028819!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
-
-
         </div>
 
     </main>
 
-    <section>
-      <div></div>
-      <div></div>
-      <div></div>
+    <section class="contacto container d-flex justify-content-around">
+      <div class="contact d-grid">
+        <img src="../img/contact.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores non, sunt molestias vitae, consequuntur autem repellendus ratione provident tenetur voluptatum neque at libero. Nihil illum impedit quia blanditiis possimus deleniti?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta veniam et odio incidunt repellendus numquam, hic magni quod minus aspernatur doloribus est ullam nobis deleniti magnam tempore fugiat eveniet accusantium?
+        </p>
+      </div>
+  
+      <div>
+        <form action="form.php" method="post" class="formulario">
+  
+          <h3>Contactanos</h3>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name" name="nombre" required>
+          </div>
+    
+          <div class="form-row">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="e-mail" name="email" required>
+          </div>
+    
+          <fieldset class="field">
+            <legend></legend>
+            <input type="checkbox" name="check" id="contact1" required>
+            <label for="contact1">Cotizacion</label>
+    
+            <input type="checkbox" name="check" id="contact2" required>
+            <label for="contact2">Consulta</label>
+          </fieldset>
+    
+          <div class="form-row">
+            <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea>
+            <label for="text-area"></label>
+            <p class="instructions">Consulta/Cotiza</p>
+          </div>
+    
+          <div class="form-row">
+            <button  type="submit">Enviar</button>
+          </div>
+    
+    
+        </form>
+    
+      </div>
     </section>
-
+    
+    <!-- Formulario -->
+    
     <footer class="footer mt-5">
 
       <ul class="nav justify-content-center">
